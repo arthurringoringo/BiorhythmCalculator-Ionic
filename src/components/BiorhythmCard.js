@@ -21,6 +21,7 @@ import {
 import { calculateBiorhythms } from '../calculateBiorhythm';
 import { LineChart, Line } from 'recharts';
 
+
 function formatDate(isostring){
 
     return dayjs(isostring).format('DD MMM YYYY');
