@@ -11,7 +11,7 @@ import dayjs from 'dayjs';
 
 function BiorhythmCharts({birthDate,targetDate,size})
 {
-    const startDates = dayjs(targetDate).subtract(15,'days').toISOString();
+    const startDates = new Date(dayjs(targetDate).subtract(15,"days").format('DD-MMM-YYYY'));
     const data = calculateBiorhythmSeries(birthDate,startDates,size)
         return(
             <ResponsiveContainer width="99%" height={500}>       

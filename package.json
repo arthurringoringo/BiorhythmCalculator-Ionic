@@ -1,5 +1,6 @@
 {
   "name": "biorhythm-calculator",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +9,8 @@
     "test": "react-scripts test"
   },
   "dependencies": {
+    "@capacitor/android": "^2.4.2",
+    "@capacitor/core": "2.4.2",
     "@ionic/react": "^5.0.5",
     "dayjs": "^1.8.35",
     "ionicons": "^5.0.1",
@@ -17,6 +20,7 @@
     "save": "^2.4.0"
   },
   "devDependencies": {
+    "@capacitor/cli": "2.4.2",
     "react-scripts": "^3.4.3"
   },
   "eslintConfig": {
